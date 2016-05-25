@@ -1,0 +1,267 @@
+{
+  "about_slas": {
+    "value": "About SLAs",
+    "title": "About SLAs"
+  },
+
+  "about_slas_link": {
+    "value": "https://support.zendesk.com/hc/en-us/articles/204770038",
+    "title": "https://support.zendesk.com/hc/en-us/articles/204770038"
+  },
+
+  "achieved": {
+    "value": "Fulfilled",
+    "title": "Fulfilled"
+  },
+
+  "activate": {
+    "value": "Activated",
+    "title": "Activated"
+  },
+
+  "activate_def": {
+    "value": "A metric that matches a ticket but has not been applied because the ticket doesn't have a Priority.",
+    "title": "A metric that matches a ticket but has not been applied because the ticket doesn't have a Priority."
+  },
+
+  "active": {
+    "value": "Active",
+    "title": "Active"
+  },
+
+  "active_def": {
+    "value": "A metric that has not yet been completed.",
+    "title": "A metric that has not yet been completed."
+  },
+  
+  "agent_work_time": {
+    "value": "Agent Work Time",
+    "title": "Agent Work Time"
+  },
+
+  "agent_work_time_def": {
+    "value": "The combined total time spent in the 'New' and 'Open' statuses. The SLA will pause on 'Pending' and 'On-hold', and will only be fulfilled on 'Solved' status. The timer will continue running where it left off if the ticket is reopened.",
+    "title": "The combined total time spent in the 'New' and 'Open' statuses. The SLA will pause on 'Pending' and 'On-hold', and will only be fulfilled on 'Solved' status. The timer will continue running where it left off if the ticket is reopened."
+  },
+
+  "app": {
+    "package": "SLAter",
+    "description": {
+      "value": "See information about a ticket's SLA events.",
+      "title": "app description"
+    }
+  },
+  
+  "apply_sla": {
+    "value": "Applied",
+    "title": "Applied"
+  },
+  "apply": {
+    "value": "Applied",
+    "title": "Applied"
+  },
+  "apply_def": {
+    "value": "A metric that matches a ticket that has been given a Priority.",
+    "title": "A metric that matches a ticket that has been given a Priority."
+  },
+  "back": {
+    "value": "< Back",
+    "title": "< Back"
+  },
+  "breach_at": {
+    "value": "Metric Breach",
+    "title": "Metric Breach"
+  },
+  "breach": {
+    "value": "Breached",
+    "title": "Breached"
+  },
+  "breach_def": {
+    "value": "A metric that has surpassed the Target time.",
+    "title": "A metric that has surpassed the Target time."
+  },
+  "business_hours": {
+    "value": "Business Hours",
+    "title": "Business Hours"
+  },
+  "business_hours_def": {
+    "value": "The work hours set in your account schedule.",
+    "title": "The work hours set in your account schedule."
+  },
+  "calendar_hours": {
+    "value": "Calendar Hours",
+    "title": "Calendar Hours"
+  },
+  "calendar_hours_def": {
+    "value": "All the hours in a day, month, and year (24/7/365).",
+    "title": "All the hours in a day, month, and year (24/7/365)."
+  },
+  "condition": {
+    "value": "Condition",
+    "title": "Condition"
+  },
+  "condition_def": {
+    "value": "The requirement that a ticket must satisfy in order for an SLA policy to be applied.",
+    "title": "The requirement that a ticket must satisfy in order for an SLA policy to be applied."
+  },
+  "explanation": {
+    "value": "The ticket doesn't meet the SLA Policy conditions, the ticket doesn't have a Priority set, or the SLA Policy was fulfilled before it was applied.",
+    "title": "The ticket doesn't meet the SLA Policy conditions, the ticket doesn't have a Priority set, or the SLA Policy was fulfilled before it was applied."
+  },
+  "first_reply_time": {
+    "value": "First Reply Time",
+    "title": "First Reply Time"
+  },
+  "first_reply_time_def": {
+    "value": "The time between ticket creation and the first public comment from an agent. This metric is fulfilled with an agent reply, and can be stopped with 'Solved' status.",
+    "title": "The time between ticket creation and the first public comment from an agent. This metric is fulfilled with an agent reply, and can be stopped with 'Solved' status."
+  },
+  "fulfill": {
+    "value": "Fulfilled",
+    "title": "Fulfilled"
+  },
+  "fulfill_def": {
+    "value": "A metric that has been completed with an action required by the type of Metric.",
+    "title": "A metric that has been completed with an action required by the type of Metric."
+  },
+  "glossary": {
+    "value": "Glossary",
+    "title": "Glossary"
+  },
+  "history": {
+    "value": "History",
+    "title": "History"
+  },
+  "loading": {
+    "value": "Loading",
+    "title": "Loading"
+  },
+  "metric_gloss": {
+    "value": "Metric",
+    "title": "Metric"
+  },
+  "metric_gloss_def": {
+    "value": "The type of measurement chosen in an SLA Policy. There are Reply Metrics (First Reply Time, Next Reply Time, Periodic Update Time) and Resolution Metrics (Requester Wait Time, Agent Work Time).",
+    "title": "The type of measurement chosen in an SLA Policy. There are Reply Metrics (First Reply Time, Next Reply Time, Periodic Update Time) and Resolution Metrics (Requester Wait Time, Agent Work Time)."
+  },
+  "metric_stage": {
+    "value": "Metric Status",
+    "title": "Metric Status"
+  },
+  "next_reply_time": {
+    "value": "Next Reply Time",
+    "title": "Next Reply Time"
+  },
+  "next_reply_time_def": {
+    "value": "The time between the oldest unanswered comment from an end-user and the next public comment from an agent. This metric is fulfilled with an agent reply, and can be stopped with 'Solved' status.",
+    "title": "The time between the oldest unanswered comment from an end-user and the next public comment from an agent. This metric is fulfilled with an agent reply, and can be stopped with 'Solved' status."
+  },
+  "no_breaches": {
+    "value": "No Current Breach",
+    "title": "No Current Breach"
+  },
+  "operation_hours": {
+    "value": "Hours of Operation",
+    "title": "Hours of Operation"
+  },
+  "operation_hours_def": {
+    "value": "The type of hours a Target uses. These can be Business Hours or Calendar Hours.",
+    "title": "The type of hours a Target uses. These can be Business Hours or Calendar Hours."
+  },
+  "pause": {
+    "value": "Paused",
+    "title": "Paused"
+  },
+  "paused": {
+    "value": "Paused",
+    "title": "Paused"
+  },
+  "paused_def": {
+    "value": "A metric that has not yet been completed, but the timer is temporarily not running.",
+    "title": "A metric that has not yet been completed, but the timer is temporarily not running."
+  },
+  "periodic_update_time": {
+    "value": "Periodic Update Time",
+    "title": "Periodic Update Time"
+  },
+  "periodic_update_time_def": {
+    "value": "The time between each public comment from agents. This metric is fulfilled with an agent reply, but it’s recurring. It can only be stopped with 'Pending' or 'Solved' status.",
+    "title": "The time between each public comment from agents. This metric is fulfilled with an agent reply, but it’s recurring. It can only be stopped with 'Pending' or 'Solved' status."
+  },
+  "priority": {
+    "value": "Priority",
+    "title": "Priority"
+  },
+  "priority_def": {
+    "value": "The value of the System Ticket Field 'Priority'. This can be 'Low', 'Normal', 'High' or 'Urgent'. A ticket must have a Priority for an SLA Policy to be applied.",
+    "title": "The value of the System Ticket Field 'Priority'. This can be 'Low', 'Normal', 'High' or 'Urgent'. A ticket must have a Priority for an SLA Policy to be applied."
+  },
+  "requester_wait_time": {
+    "value": "Requester Wait Time",
+    "title": "Requester Wait Time"
+  },
+  "requester_wait_time_def": {
+    "value": "The combined total time spent in the 'New', 'Open', and 'On-hold' statuses. The SLA will pause on 'Pending', and will only be fulfilled on 'Solved' status. The timer will continue running where it left off if the ticket is reopened.",
+    "title": "The combined total time spent in the 'New', 'Open', and 'On-hold' statuses. The SLA will pause on 'Pending', and will only be fulfilled on 'Solved' status. The timer will continue running where it left off if the ticket is reopened."
+  },
+  "sla_detected": {
+    "value": "SLA Policy Detected",
+    "title": "SLA Policy Detected"
+  },
+  "sla_log": {
+    "value": "SLA Logs",
+    "title": "SLA Logs"
+  },
+  "sla_not_detected": {
+    "value": "No SLA Policy Metric Detected",
+    "title": "No SLA Policy Metric Detected"
+  },
+  "sla_policy_gloss": {
+    "value": "SLA Policy",
+    "title": "SLA Policy"
+  },
+  "sla_policy_gloss_def": {
+    "value": "The agreed-upon ticket response, update, and resolution times from a support team to customers.",
+    "title": "The agreed-upon ticket response, update, and resolution times from a support team to customers."
+  },
+  "sla_policy_applied": {
+    "value": "SLA Policy Applied",
+    "title": "SLA Policy Applied"
+  },
+  "stopped": {
+    "value": "Stopped",
+    "title": "Stopped"
+  },
+  "stopped_def": {
+    "value": "A metric that has been forcefully fulfilled by changing the ticket status.",
+    "title": "A metric that has been forcefully fulfilled by changing the ticket status."
+  },
+  "target_name": {
+    "value": "Metric Name",
+    "title": "Metric Name"
+  },
+  "target": {
+    "value": "Target(s)",
+    "title": "Target(s)"
+  },
+  "target_gloss": {
+    "value": "Target",
+    "title": "Target"
+  },
+  "target_gloss_def": {
+    "value": "The allowed time a metric has to be fulfilled. Can vary depending on the Ticket Priority. Can be set to be calendar or business hours.",
+    "title": "The allowed time a metric has to be fulfilled. Can vary depending on the Ticket Priority. Can be set to be calendar or business hours."
+  },
+  "time": {
+    "value": "Time",
+    "title": "Time"
+  },
+  "troubleshoot_slas": {
+    "value": "Troubleshoot",
+    "title": "Troubleshoot"
+  },
+  "troubleshoot_slas_link": {
+    "value": "https://support.zendesk.com/hc/en-us/articles/218161007",
+    "title": "https://support.zendesk.com/hc/en-us/articles/218161007"
+  }
+}

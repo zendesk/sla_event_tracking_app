@@ -1,0 +1,19 @@
+<div class="no_sla" align="center">
+<img src="{{assetURL 'alert_icon.png'}}" alt="alert_icon" style="width:40px;height:40px;"/>
+<a data-toggle="not_detected" id="not_detected_toggle" align="center">
+<h3>{{t "sla_not_detected"}}</h3>
+</a>
+<hr>
+</div>
+
+<div class="no_sla_explanation" id="no_sla_explanation" align="center">
+{{t "explanation"}}
+<hr>
+</div>
+
+<div align="center">
+<a href="{{t "about_slas_link"}}" target="_blank"><span class="bottom_label">{{t "about_slas"}}</span></a>
+<span class="bottom_label" id="glossary">{{t "glossary"}}</span>
+<a href="{{t "troubleshoot_slas_link"}}" target="_blank"><span class="bottom_label">{{t "troubleshoot_slas"}}</span></a>
+<a href="/api/v2/tickets/{{ticketid}}?include=slas,metric_events" target="_blank"><span class="bottom_label">{{t "sla_log"}}</span></a>
+</div>

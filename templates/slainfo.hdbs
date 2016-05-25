@@ -1,0 +1,40 @@
+<div class="not_detected" align="center">
+<img src="{{assetURL 'target_icon.png'}}" alt="target_icon" style="width:40px;height:40px;"/>
+<span align="center">
+<h3>{{t "sla_detected"}}</h3>
+<a data-toggle="target_size" id=target_toggle><h4>{{sla.targets.length}} {{t "time"}} {{t "target"}}</h4></a>
+</span>
+<hr>
+</div>
+
+<div class="targets">
+{{#each sla.targets}}
+  <p><b>{{t "target_name"}}:</b> <span class={{metric}}>{{t metric}}</span></p>
+  <p><b>{{t "metric_stage"}}:</b> <span class="metric_stage">{{t stage}}</span><br>
+  {{#if breach_at}}
+    <b>{{t "breach_at"}}:</b> <span class="breach_at_breach">{{breach_atusertime}}</span><br>
+  {{else}}
+    <b>{{t "breach_at"}}:</b> <span class="breach_at_breach_success" id={{metric}}_success>{{t "no_breaches"}}</span><br>
+  {{/if}}</p><br>
+  <a data-toggle="history_toggle" id={{metric}}_toggle><b>{{t "history"}}</b></a>
+  <p class="history_complete" id={{metric}}>
+  {{#each history}}
+    <span class="timestamp" id=timestamp_{{type}}>{{usertime}}</span> <span class="type" id={{type}}>{{t type}}</span>
+    {{#if sla}}
+      <br>
+      <span class="sla_policy_applied">{{t "sla_policy_applied"}}</span>
+      <b><span class="sla_policy_title">{{sla.policy.title}}</span></b>
+    {{/if}}
+    <br>
+  {{/each}}</p>
+  <hr>
+{{/each}}
+</div>
+
+<div align="center">
+<a href="{{t "about_slas_link"}}" target="_blank"><span class="bottom_label">{{t "about_slas"}}</span></a>
+<span class="bottom_label" id="glossary">{{t "glossary"}}</span>
+<a href="{{t "troubleshoot_slas_link"}}" target="_blank"><span class="bottom_label">{{t "troubleshoot_slas"}}</span></a>
+<a href="/api/v2/tickets/{{ticketid}}?include=slas,metric_events" target="_blank"><span class="bottom_label">{{t "sla_log"}}</span></a>
+</div>
+

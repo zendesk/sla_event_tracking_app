@@ -1,0 +1,98 @@
+<div class="not_detected" align="center">
+<img src="{{assetURL 'glossary_icon.png'}}" alt="glossary_icon" style="width:40px;height:40px;"/>
+<span align="center">
+<h3>{{t "glossary"}}</h3>
+</span>
+<hr>
+</div>
+
+<div class="definitions" id="glossary_definitions">
+<a data-toggle="definition1name" id="definition1name"><li><b>{{t "activate"}}</b></li></a>
+<ul>
+<p class="definition1" id="definition1">{{t "activate_def"}}</p>
+</ul>
+<a data-toggle="definition2name" id="definition2name"><li><b>{{t "active"}}</b></li></a>
+<ul>
+<p class="definition2" id="definition2">{{t "active_def"}}</p>
+</ul>
+<a data-toggle="definition3name" id="definition3name"><li><b>{{t "agent_work_time"}}</b></li></a>
+<ul>
+<p class="definition3" id="definition3">{{t "agent_work_time_def"}}</p>
+</ul>
+<a data-toggle="definition4name" id="definition4name"><li><b>{{t "apply"}}</b></li></a>
+<ul>
+<p class="definition4" id="definition4">{{t "apply_def"}}</p>
+</ul>
+<a data-toggle="definition5name" id="definition5name"><li><b>{{t "breach"}}</b></li></a>
+<ul>
+<p class="definition5" id="definition5">{{t "breach_def"}}</p>
+</ul>
+<a data-toggle="definition6name" id="definition6name"><li><b>{{t "business_hours"}}</b></li></a>
+<ul>
+<p class="definition6" id="definition6">{{t "business_hours_def"}}</p>
+</ul>
+<a data-toggle="definition7name" id="definition7name"><li><b>{{t "calendar_hours"}}</b></li></a>
+<ul>
+<p class="definition7" id="definition7">{{t "calendar_hours_def"}}</p>
+</ul>
+<a data-toggle="definition8name" id="definition8name"><li><b>{{t "condition"}}</b></li></a>
+<ul>
+<p class="definition8" id="definition8">{{t "condition_def"}}</p>
+</ul>
+<a data-toggle="definition9name" id="definition9name"><li><b>{{t "first_reply_time"}}</b></li></a>
+<ul>
+<p class="definition9" id="definition9">{{t "first_reply_time_def"}}</p>
+</ul>
+<a data-toggle="definition10name" id="definition10name"><li><b>{{t "fulfill"}}</b></li></a>
+<ul>
+<p class="definition10" id="definition10">{{t "fulfill_def"}}</p>
+</ul>
+<a data-toggle="definition11name" id="definition11name"><li><b>{{t "operation_hours"}}</b></li></a>
+<ul>
+<p class="definition11" id="definition11">{{t "operation_hours_def"}}</p>
+</ul>
+<a data-toggle="definition12name" id="definition12name"><li><b>{{t "metric_gloss"}}</b></li></a>
+<ul>
+<p class="definition12" id="definition12">{{t "metric_gloss_def"}}</p>
+</ul>
+<a data-toggle="definition13name" id="definition13name"><li><b>{{t "next_reply_time"}}</b></li></a>
+<ul>
+<p class="definition13" id="definition13">{{t "next_reply_time_def"}}</p>
+</ul>
+<a data-toggle="definition14name" id="definition14name"><li><b>{{t "paused"}}</b></li></a>
+<ul>
+<p class="definition14" id="definition14">{{t "paused_def"}}</p>
+</ul>
+<a data-toggle="definition15name" id="definition15name"><li><b>{{t "periodic_update_time"}}</b></li></a>
+<ul>
+<p class="definition15" id="definition15">{{t "periodic_update_time_def"}}</p>
+</ul>
+<a data-toggle="definition16name" id="definition16name"><li><b>{{t "priority"}}</b></li></a>
+<ul>
+<p class="definition16" id="definition16">{{t "priority_def"}}</p>
+</ul>
+<a data-toggle="definition17name" id="definition17name"><li><b>{{t "requester_wait_time"}}</b></li></a>
+<ul>
+<p class="definition17" id="definition17">{{t "requester_wait_time_def"}}</p>
+</ul>
+<a data-toggle="definition18name" id="definition18name"><li><b>{{t "sla_policy_gloss"}}</b></li></a>
+<ul>
+<p class="definition18" id="definition18">{{t "sla_policy_gloss_def"}}</p>
+</ul>
+<a data-toggle="definition19name" id="definition19name"><li><b>{{t "stopped"}}</b></li></a>
+<ul>
+<p class="definition19" id="definition19">{{t "stopped_def"}}</p>
+</ul>
+<a data-toggle="definition20name" id="definition20name"><li><b>{{t "target_gloss"}}</b></li></a>
+<ul>
+<p class="definition20" id="definition20">{{t "target_gloss_def"}}</p>
+</ul>
+<hr>
+</div>
+
+<div align="center">
+<span class="goback_button" id="goback">{{t "back"}}</span>
+<a href="{{t "about_slas_link"}}" target="_blank"><span class="bottom_label">{{t "about_slas"}}</span></a>
+<a href="{{t "troubleshoot_slas_link"}}" target="_blank"><span class="bottom_label">{{t "troubleshoot_slas"}}</span></a>
+<a href="/api/v2/tickets/{{ticketid}}?include=slas,metric_events" target="_blank"><span class="bottom_label">{{t "sla_log"}}</span></a>
+</div>
