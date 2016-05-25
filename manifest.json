@@ -1,9 +1,9 @@
 {
-  "name": "SLAter",
+  "name": "SLA Event Tracking App",
   "author": {
-    "name": "Sam Michaels & Alex Culligan",
-    "email": "noemail@noemail.com",
-    "url": "https://github.com/swmichaels/slater"
+    "name": "Zendesk Labs",
+    "email": "zendesklabs@zendesk.com",
+    "url": "https://www.zendesk.com"
   },
   "defaultLocale": "en",
   "private": false,
