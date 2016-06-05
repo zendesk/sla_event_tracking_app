@@ -1,13 +1,13 @@
 hr {
-	border-top: 1px solid #CCC !important;
+    border-top: 1px solid #CCC !important;
 }
 
 h3 {
-	font-size: 18px !important;
+    font-size: 18px !important;
 }
 
 header {
-	margin-top: 2px !important;
+    margin-top: 2px !important;
     border-bottom: 1px solid #CCC !important;
 }
 
@@ -20,13 +20,13 @@ div.no_sla_explanation {
 }
 
 p.history_complete {
-	display:none;
+    display:none;
 }
 
 span#breach.type {
-	border-style: solid;
+    border-style: solid;
     border-radius: 3px;
-	color: white;
+    color: white;
     border-width: 3px;
     border-bottom-width: 0px;
     border-top-width: 0px;
@@ -92,37 +92,35 @@ span.sla_policy_applied {
 span.bottom_label {
     cursor: pointer;
     border-style: solid;
-    border-radius: 3px;
-    color: white;
-    border-width: 3px;
-    border-bottom-width: 0px;
-    border-top-width: 0px;
-    border-color: #999999;
-    background-color: #999999;
+    border-radius: 4px;
+    color: #555;
+    border-width: 1px;
+    border-color: #ddd;
+    background-color: #fff;
+    padding: 5px;
 }
 
 span.bottom_label:hover {
-  background-color: #3D3D3D;
-  color: white;
-  border-color: #3D3D3D;
+  background-color: #fafafa;
+  color: #999;
+  border-color: #ccc;
 }
 
 #goback {
     cursor: pointer;
     border-style: solid;
-    border-radius: 3px;
+    border-radius: 4px;
     color: white;
-    border-width: 3px;
-    border-bottom-width: 0px;
-    border-top-width: 0px;
-    border-color: #3898cc;
-    background-color: #3898cc;
+    border-width: 1px;
+    border-color: #5EBBDE;
+    background-color: #5EBBDE;
+    padding: 5px;
 }
 
 #goback:hover {
-  background-color: #256d94;
-  color: white;
-  border-color: #256d94;
+  background-color: #6AABC4;
+  color: #FBFBFB;
+  border-color: #6AABC4;
 }
 
 #glossary {
@@ -130,7 +128,7 @@ span.bottom_label:hover {
 }
 
 p.definition1 {
-	display:none;
+    display:none;
 }
 
 p.definition2 {

@@ -1,5 +1,5 @@
 <div class="not_detected" align="center">
-<img src="{{assetURL 'target_icon.png'}}" alt="target_icon" style="width:40px;height:40px;"/>
+<img src="{{assetURL 'target_icon.png'}}" alt="target_icon" style="width:34px;height:40px;"/>
 <span align="center">
 <h3>{{t "sla_detected"}}</h3>
 <a data-toggle="target_size" id=target_toggle><h4>{{sla.targets.length}} {{t "time"}} {{t "target"}}</h4></a>

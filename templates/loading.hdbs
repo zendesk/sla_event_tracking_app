@@ -1,5 +1,5 @@
 <div class="loading" align="center">
-<img src="{{assetURL 'loading_icon.png'}}" alt="loading_icon" id="loading_icon" style="width:40px;height:40px;"/>
+<img src="{{assetURL 'loading_icon.png'}}" alt="loading_icon" id="loading_icon" style="width:31px;height:40px;"/>
 <h3>{{t "loading"}}...</h3>
 {{spinner "dotted"}}
 </div>
