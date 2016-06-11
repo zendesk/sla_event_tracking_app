@@ -1,3 +1,25 @@
+#loading_icon {
+    height: 80px; 
+    width: 80px; 
+    margin-bottom:-10px; 
+    margin-top:-20px;
+}
+
+#alert_icon {
+    height: 80px; 
+    width: 80px; 
+    margin-bottom: -30px; 
+    margin-top: -5px; 
+    margin-right: -30px;
+}
+
+#target_icon, #glossary_icon {
+    height: 80px; 
+    width: 80px; 
+    margin-bottom:-20px; 
+    margin-top:-20px;
+}
+
 hr {
     border-top: 1px solid #CCC !important;
 }
@@ -13,6 +35,11 @@ header {
 
 div.targets {
     display:none;
+}
+
+div.targets > p, div.targets > a {
+    width: 290px;
+    margin-left: 15px;
 }
 
 div.no_sla_explanation {

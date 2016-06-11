@@ -1,5 +1,5 @@
 <div class="no_sla" align="center">
-<img src="{{assetURL 'alert_icon.png'}}" alt="alert_icon" style="width:40px;height:40px;"/>
+<svg viewBox="0 0 22 22" id="alert_icon" width="40px" height="40px"><g stroke="#bd4842"><circle cx="7" cy="7" r="5.5" fill="none"></circle><path d="M7 7.5v-3" stroke-linecap="round"></path></g><circle cx="7" cy="10" r=".8" fill="#bd4842"></circle></svg>
 <a data-toggle="not_detected" id="not_detected_toggle" align="center">
 <h3>{{t "sla_not_detected"}}</h3>
 </a>

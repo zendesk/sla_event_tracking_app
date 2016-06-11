@@ -1,5 +1,5 @@
 <div class="loading" align="center">
-<img src="{{assetURL 'loading_icon.png'}}" alt="loading_icon" id="loading_icon" style="width:31px;height:40px;"/>
+<svg viewBox="0 0 116 116" id="loading_icon" width="100%" height="100%"><g fill="none" stroke="#78A300" stroke-width="2"><circle cx="58" cy="27.6" r="4.5"></circle><path d="M43 33h-3.8c-4.5 0-8.2 3.7-8.2 8.2v43.6c0 4.5 3.6 8.2 8.2 8.2h37.7c4.5 0 8.2-3.7 8.2-8.2V41.2c0-4.5-3.6-8.2-8.2-8.2H73m-20-5h-3.7c-3.4 0-6.3 2.8-6.3 6.2V37h30v-2.8c0-3.4-2.9-6.2-6.3-6.2H63M52.4 48.7L47.1 54l-2-1.9M49 57h-8v-8h7m25 4H54m19 13H54m19 13H54M41 62h8v8h-8v-8zm0 12.7h8v8h-8v-8z" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
 <h3>{{t "loading"}}...</h3>
 {{spinner "dotted"}}
 </div>
