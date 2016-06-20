@@ -113,8 +113,8 @@
     "title": "First Reply Time"
   },
   "first_reply_time_def": {
-    "value": "The time between ticket creation and the first public comment from an agent. This metric is fulfilled with an agent reply, and can be stopped with 'Solved' status.",
-    "title": "The time between ticket creation and the first public comment from an agent. This metric is fulfilled with an agent reply, and can be stopped with 'Solved' status."
+    "value": "The time between the first customer comment and the first public comment from an agent. First reply time will not be measured on tickets created by an agent. This metric is fulfilled with an agent reply, and can be stopped with 'Solved' status.",
+    "title": "The time between the first customer comment and the first public comment from an agent. First reply time will not be measured on tickets created by an agent. This metric is fulfilled with an agent reply, and can be stopped with 'Solved' status."
   },
   "fulfill": {
     "value": "Fulfilled",
