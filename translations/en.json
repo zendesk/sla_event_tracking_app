@@ -209,8 +209,8 @@
     "title": "SLA Policy Detected"
   },
   "sla_log": {
-    "value": "SLA Logs",
-    "title": "SLA Logs"
+    "value": "Logs",
+    "title": "Logs"
   },
   "sla_not_detected": {
     "value": "No SLA Policy Metric Detected",
