@@ -8,52 +8,52 @@ Agent Work Time
 The combined total time spent in the 'New' and 'Open' statuses. The SLA will pause on 'Pending' and 'On-hold', and will only be fulfilled on 'Solved' status. The timer will continue running where it left off if the ticket is reopened.
 
 Applied
-A metric that matches a ticket that has been given a Priority.
+	A metric that matches a ticket that has been given a Priority.
 
 Breached
-A metric that has surpassed the Target time.
+	A metric that has surpassed the Target time.
 
 Business Hours
-The work hours set in your account schedule.
+	The work hours set in your account schedule.
 
 Calendar Hours
-All the hours in a day, month, and year (24/7/365).
+	All the hours in a day, month, and year (24/7/365).
 
 Condition
-The requirement that a ticket must satisfy in order for an SLA policy to be applied.
+	The requirement that a ticket must satisfy in order for an SLA policy to be applied.
 
 First Reply Time
-The time between ticket creation and the first public comment from an agent. This metric is fulfilled with an agent reply, and can be stopped with 'Solved' status.
+	The time between the first customer comment and the first public comment from an agent. First reply time will not be measured on tickets created by an agent. This metric is fulfilled with an agent reply, and can be stopped with 'Solved' status.
 
 Fulfilled
-A metric that has been completed with an action required by the type of Metric.
+	A metric that has been completed with an action required by the type of Metric.
 
 Hours of Operation
-The type of hours a Target uses. These can be Business Hours or Calendar Hours.
+	The type of hours a Target uses. These can be Business Hours or Calendar Hours.
 
 Metric
-The type of measurement chosen in an SLA Policy. There are Reply Metrics (First Reply Time, Next Reply Time, Periodic Update Time) and Resolution Metrics (Requester Wait Time, Agent Work Time).
+	The type of measurement chosen in an SLA Policy. There are Reply Metrics (First Reply Time, Next Reply Time, Periodic Update Time) and Resolution Metrics (Requester Wait Time, Agent Work Time).
 
 Next Reply Time
-The time between the oldest unanswered comment from an end-user and the next public comment from an agent. This metric is fulfilled with an agent reply, and can be stopped with 'Solved' status.
+	The time between the oldest unanswered comment from an end-user and the next public comment from an agent. This metric is fulfilled with an agent reply, and can be stopped with 'Solved' status.
 
 Paused
-A metric that has not yet been completed, but the timer is temporarily not running.
+	A metric that has not yet been completed, but the timer is temporarily not running.
 
 Periodic Update Time
-The time between each public comment from agents. This metric is fulfilled with an agent reply, but it’s recurring. It can only be stopped with 'Pending' or 'Solved' status.
+	The time between each public comment from agents. This metric is fulfilled with an agent reply, but it’s recurring. It can only be stopped with 'Pending' or 'Solved' status.
 
 Priority
-The value of the System Ticket Field 'Priority'. This can be 'Low', 'Normal', 'High' or 'Urgent'. A ticket must have a Priority for an SLA Policy to be applied.
+	The value of the System Ticket Field 'Priority'. This can be 'Low', 'Normal', 'High' or 'Urgent'. A ticket must have a Priority for an SLA Policy to be applied.
 
 Requester Wait Time
-The combined total time spent in the 'New', 'Open', and 'On-hold' statuses. The SLA will pause on 'Pending', and will only be fulfilled on 'Solved' status. The timer will continue running where it left off if the ticket is reopened.
+	The combined total time spent in the 'New', 'Open', and 'On-hold' statuses. The SLA will pause on 'Pending', and will only be fulfilled on 'Solved' status. The timer will continue running where it left off if the ticket is reopened.
 
 SLA Policy
-The agreed-upon ticket response, update, and resolution times from a support team to customers.
+	The agreed-upon ticket response, update, and resolution times from a support team to customers.
 
 Stopped
-A metric that has been forcefully fulfilled by changing the ticket status.
+	A metric that has been forcefully fulfilled by changing the ticket status.
 
 Target
-The allowed time a metric has to be fulfilled. Can vary depending on the Ticket Priority. Can be set to be calendar or business hours.
+	The allowed time a metric has to be fulfilled. Can vary depending on the Ticket Priority. Can be set to be calendar or business hours.

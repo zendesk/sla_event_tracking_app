@@ -1,59 +1,59 @@
 Activada
-Una métrica que coincide con un ticket pero que no ha sido aplicada porque el ticket no tiene Prioridad.
+	Una métrica que coincide con un ticket pero que no ha sido aplicada porque el ticket no tiene Prioridad.
 
 Activa
-Una métrica que no ha sido completada.
+	Una métrica que no ha sido completada.
 
 Tiempo de Trabajo del Agente
-La suma total del tiempo transcurrido en los estados 'Nuevo' y 'Abierto'. La SLA hará una pausa en 'Pendiente' y 'En espera', y sólo puede ser cumplida en estado 'Resuelto'. El minutero continuará donde quedó si el ticket es reabierto.
+	La suma total del tiempo transcurrido en los estados 'Nuevo' y 'Abierto'. La SLA hará una pausa en 'Pendiente' y 'En espera', y sólo puede ser cumplida en estado 'Resuelto'. El minutero continuará donde quedó si el ticket es reabierto.
 
 Aplicada
-Una métrica que coincide con un ticket que tiene Prioridad.
+	Una métrica que coincide con un ticket que tiene Prioridad.
 
 Incumplida
-Una métrica que ha sobrepasado el Objetivo de tiempo.
+	Una métrica que ha sobrepasado el Objetivo de tiempo.
 
 Horas de Trabajo
-Las horas establecidas en el horario de cuenta.
+	Las horas establecidas en el horario de cuenta.
 
 Horas Calendario
-Todas las horas en un día, mes, y año (24/7/365).
+	Todas las horas en un día, mes, y año (24/7/365).
 
 Condición
-El requerimiento que un ticket debe cumplir para que una política de SLA sea aplicada.
+	El requerimiento que un ticket debe cumplir para que una política de SLA sea aplicada.
 
 Tiempo de Primera Respuesta
-El tiempo transcurrido entre la creación del ticket y el primer comentario público de un agente. Esta métrica es cumplida con una respuesta de un agente, y puede ser detenida con estado 'Resuelto'.
+	El tiempo transcurrido entre el primer comentario del cliente y el primer comentario público de un agente. No se medirá el tiempo de primera respuesta en los tickets creados por un agente. Esta métrica es cumplida con una respuesta de un agente, y puede ser detenida con estado 'Resuelto'.
 
 Cumplida
-Una métrica que ha sido completada con una acción requerida por el tipo de Métrica.
+	Una métrica que ha sido completada con una acción requerida por el tipo de Métrica.
 
 Tipo de Horas
-Las horas que usa un Objetivo. Éstas pueden ser Horas de Trabajo u Horas Calendario.
+	Las horas que usa un Objetivo. Éstas pueden ser Horas de Trabajo u Horas Calendario.
 
 Métrica
-El tipo de medida seleccionada en la política de SLA. Existen Métricas de Respuesta (Tiempo de Primera Respuesta, Tiempo de Siguiente Respuesta, Tiempo de Actualización Periódica) y Métricas de Resolución (Tiempo de Espera del Solicitante, Tiempo de Trabajo del Agente).
+	El tipo de medida seleccionada en la política de SLA. Existen Métricas de Respuesta (Tiempo de Primera Respuesta, Tiempo de Siguiente Respuesta, Tiempo de Actualización Periódica) y Métricas de Resolución (Tiempo de Espera del Solicitante, Tiempo de Trabajo del Agente).
 
 Tiempo de Siguiente Respuesta
-El tiempo transcurrido entre el comentario más antiguo sin responder de un usuario final y el siguiente comentario público de un agente. Esta métrica sólo puede ser cumplida con una respuesta de un agente, y puede ser detenida con estado 'Resuelto'.
+	El tiempo transcurrido entre el comentario más antiguo sin responder de un usuario final y el siguiente comentario público de un agente. Esta métrica sólo puede ser cumplida con una respuesta de un agente, y puede ser detenida con estado 'Resuelto'.
 
 Pausada
-Una métrica que no ha sido completada, pero que tiene el minutero temporalmente desactivado.
+	Una métrica que no ha sido completada, pero que tiene el minutero temporalmente desactivado.
 
 Tiempo de Actualización Periódica
-El tiempo transcurrido entre los comentarios públicos de los agentes. Esta métrica es cumplida con una respuesta de un agente, pero se repite. Sólo puede ser detenida con estados 'Pendiente' o 'Resuelto'.
+	El tiempo transcurrido entre los comentarios públicos de los agentes. Esta métrica es cumplida con una respuesta de un agente, pero se repite. Sólo puede ser detenida con estados 'Pendiente' o 'Resuelto'.
 
 Prioridad
-El valor del Campo de Ticket de Sistema 'Prioridad'. La Prioridad puede ser 'Baja', 'Normal', 'Alta', o 'Urgente'. Un ticket debe tener una Prioridad para que una política de SLA sea aplicada.
+	El valor del Campo de Ticket de Sistema 'Prioridad'. La Prioridad puede ser 'Baja', 'Normal', 'Alta', o 'Urgente'. Un ticket debe tener una Prioridad para que una política de SLA sea aplicada.
 
 Tiempo de Espera del Solicitante
-La suma total del tiempo transcurrido en los estados 'Nuevo', 'Abierto' y 'En espera'. La SLA hará una pausa en 'Pendiente', y sólo puede ser cumplida en estado 'Resuelto'. El minutero continuará donde quedó si el ticket es reabierto.
+	La suma total del tiempo transcurrido en los estados 'Nuevo', 'Abierto' y 'En espera'. La SLA hará una pausa en 'Pendiente', y sólo puede ser cumplida en estado 'Resuelto'. El minutero continuará donde quedó si el ticket es reabierto.
 
 Política de SLA
-Los tiempos de respuesta, actualización, y resolución acordados entre un equipo de soporte y clientes.
+	Los tiempos de respuesta, actualización, y resolución acordados entre un equipo de soporte y clientes.
 
 Detenida
-Una métrica que ha sido forzosamente cumplida al cambiar el estado del ticket.
+	Una métrica que ha sido forzosamente cumplida al cambiar el estado del ticket.
 
 Objetivo
-El tiempo permitido para que una métrica sea cumplida. Puede variar dependiendo de la Prioridad del ticket. Puede ser configurado en horas calendario o de trabajo.
+	El tiempo permitido para que una métrica sea cumplida. Puede variar dependiendo de la Prioridad del ticket. Puede ser configurado en horas calendario o de trabajo.

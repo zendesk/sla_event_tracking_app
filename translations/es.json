@@ -26,7 +26,7 @@
   "condition_def": "El requerimiento que un ticket debe cumplir para que una política de SLA sea aplicada.",
   "explanation": "El ticket no cumple con las condiciones de la Política de SLA, el ticket no tiene una Prioridad asignada, o la Política de SLA fue cumplida antes de ser aplicada.",
   "first_reply_time": "Tiempo de Primera Respuesta",
-  "first_reply_time_def": "El tiempo transcurrido entre la creación del ticket y el primer comentario público de un agente. Esta métrica es cumplida con una respuesta de un agente, y puede ser detenida con estado 'Resuelto'.",
+  "first_reply_time_def": "El tiempo transcurrido entre el primer comentario del cliente y el primer comentario público de un agente. No se medirá el tiempo de primera respuesta en los tickets creados por un agente. Esta métrica es cumplida con una respuesta de un agente, y puede ser detenida con estado 'Resuelto'.",
   "fulfill": "Cumplida",
   "fulfill_def": "Una métrica que ha sido completada con una acción requerida por el tipo de Métrica.",
   "glossary": "Glosario",
