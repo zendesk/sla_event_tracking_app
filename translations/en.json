@@ -185,8 +185,8 @@
     "title": "Periodic Update Time"
   },
   "periodic_update_time_def": {
-    "value": "The time between each public comment from agents. This metric is fulfilled with an agent reply, but it’s recurring. It can only be stopped with 'Pending' or 'Solved' status.",
-    "title": "The time between each public comment from agents. This metric is fulfilled with an agent reply, but it’s recurring. It can only be stopped with 'Pending' or 'Solved' status."
+    "value": "The time between each public comment from agents. This metric is fulfilled with an agent reply, but it’s recurring. It can only be stopped with 'Solved' status.",
+    "title": "The time between each public comment from agents. This metric is fulfilled with an agent reply, but it’s recurring. It can only be stopped with 'Solved' status."
   },
   "priority": {
     "value": "Priority",

@@ -44,7 +44,7 @@
   "paused": "Pausada",
   "paused_def": "Una métrica que no ha sido completada, pero que tiene el minutero temporalmente desactivado.",
   "periodic_update_time": "Tiempo de Actualización Periódica",
-  "periodic_update_time_def": "El tiempo transcurrido entre los comentarios públicos de los agentes. Esta métrica es cumplida con una respuesta de un agente, pero se repite. Sólo puede ser detenida con estados 'Pendiente' o 'Resuelto'.",
+  "periodic_update_time_def": "El tiempo transcurrido entre los comentarios públicos de los agentes. Esta métrica es cumplida con una respuesta de un agente, pero se repite. Sólo puede ser detenida con estado 'Resuelto'.",
   "priority": "Prioridad",
   "priority_def": "El valor del Campo de Ticket de Sistema 'Prioridad'. La Prioridad puede ser 'Baja', 'Normal', 'Alta', o 'Urgente'. Un ticket debe tener una Prioridad para que una política de SLA sea aplicada.",
   "requester_wait_time": "Tiempo de Espera del Solicitante",
