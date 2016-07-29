@@ -41,7 +41,7 @@ Paused
 	A metric that has not yet been completed, but the timer is temporarily not running.
 
 Periodic Update Time
-	The time between each public comment from agents. This metric is fulfilled with an agent reply, but it’s recurring. It can only be stopped with 'Pending' or 'Solved' status.
+	The time between each public comment from agents. This metric is fulfilled with an agent reply, but it’s recurring. It can only be stopped with 'Solved' status.
 
 Priority
 	The value of the System Ticket Field 'Priority'. This can be 'Low', 'Normal', 'High' or 'Urgent'. A ticket must have a Priority for an SLA Policy to be applied.
