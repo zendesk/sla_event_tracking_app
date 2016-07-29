@@ -1,5 +1,5 @@
 {
-  "name": "SLA Event Tracker",
+  "name": "SLA Event Tracking App",
   "author": {
     "name": "Zendesk Labs",
     "email": "zendesklabs@zendesk.com",
@@ -9,6 +9,6 @@
   "private": false,
   "singleInstall": true,
   "location": "ticket_sidebar",
-  "version": "1.1.1",
+  "version": "1.1",
   "frameworkVersion": "1.0"
 }
